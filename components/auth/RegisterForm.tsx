@@ -11,6 +11,7 @@ type RegisterFormData = z.infer<typeof registerSchema>;
 export default function RegisterForm() {
   const router = useRouter();
 
+  
   const {
     register,
     handleSubmit,
